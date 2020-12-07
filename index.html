@@ -4,47 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assests/css/style.css">
-    <link rel="stylesheet" href="assests/css/grid.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
     <script src="https://kit.fontawesome.com/9aa3c56eb0.js" crossorigin="anonymous"></script>
-    <title>Portafolio Personal: Jovanny Fuentes</title>
+    <title>Personal Portfolio: Jovanny Fuentes</title>
 </head>
 
 <body>
 
     <!--Menu nav section-->
-
-    <div class="col-md-2  main-menu text-center position-relative overflow-auto">
+    <div class="main-menu">
         <div class="menu-img">
             <img src="img/jovanny.jpg" alt="Jovanny Fuentes">
-
         </div>
-        <a href="#" class="font-name font-poppins">Jovanny Fuentes</a>
+        <a href="#" class="font-name">Jovanny Fuentes</a>
         <div class="menu-section col-md-12">
-            <ul>
+            <ul id="menu" class="hide">
                 <li><a class="nav-active  " href="#">Home</a></li>
                 <li><a class="non-active" href="#about">About me</a></li>
                 <li><a class="non-active" href="#what-i-do">What I do</a></li>
                 <li><a class="non-active" href="#resume">Resume</a></li>
-                <li><a class="non-active" href="#portfolio">Portfolio</a></li>
-                <li><a class="non-active" href="#contact">Contact</a></li>
             </ul>
         </div>
-        <div class="social-icons text-center">
+        <div class="social-icons ">
             <a href="https://www.facebook.com/j0v4nny/" target="_blank"><i class="fab fa-facebook"></i></a>
             <a href="https://twitter.com/login" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="mailto:Jovannyfuentesm@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
             <a href="#"><i class="fab fa-github" target="_blank"></i></a>
         </div>
+        <a class="menu-icon" onclick="showMenu()"><i class="fas fa-bars"></i></a>
     </div>
-    <!--actualizacion-->
+
     <!--Banner section-->
-    <div class="col-md-10 padding-left">
+    <div class="col-md-10 padding-left  ">
         <div class="img-content ">
             <div class="overlay-img text-center items-center">
                 <div class="text-welcome text-centers">
                     <h3>Welcome</h3>
-                    <h2>I'm programmer and networking Engineer</h2>
+                    <h2>I'm programmer</h2>
                     <h4>based in Tijuana Baja California, Mx.</h4>
                 </div>
             </div>
@@ -53,13 +50,13 @@
 
 
     <!--Know me section-->
-    <div id="about" class="col-md-10 main-about-me">
+    <div id="about" class="col-md-10 padding-left main-about-me">
         <div class="title-know-me text-center position-relative">
             <P class="position-absolute">Know <span>Me</span> more!</P>
             <h2>ABOUT ME</h2>
         </div>
-        <div class="description-about-me display-flex">
-            <div class="col-md-8 text-about-me">
+        <div class="description-about-me display-flex display-wrap ">
+            <div class="col-md-7 text-about-me">
                 <h2>I'm <span>Jovanny Fuentes</span>, a Web Developer</h2>
                 <p>I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type
                     specimen book.
@@ -68,7 +65,7 @@
                     Delivering work within time and budget which meets client’s requirements is our moto. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley.
                 </p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
                 <div class="info-about-me text-center">
                     <ul class="ul-info-about-me">
                         <li class="li-info-about-me">
@@ -79,7 +76,7 @@
                             <a href="mailto:jovannyfuentesm@gmail.com">Jovannyfuentesm@gmail.com</a>
                         </li>
                         <li class="li-info-about-me">
-                            <span>Age:</span> 27
+                            <span>Age:</span> 26
                         </li>
                         <li class="li-info-about-me">
                             <span>From:</span> Zapopan, Jalisco. Mx
@@ -217,7 +214,14 @@
             </div>
         </div>
     </div>
+
+    <!--Footer Section-->
+    <footer class="col-md-10 main-footer padding-left">
+        <p>&copy; Mexico 2020</p>
+        <a href="#">Jovanny Fuentes</a>  
+    </footer>
+
 </body>
-<script src="assests/js/menu.js"></script>
+<script src="assets/js/menu.js"></script>
 
 </html>
