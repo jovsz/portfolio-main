@@ -47,12 +47,3 @@
         width: 100%;
     }
 }
-
-
-/*Large Devices*/
-
-@media(min-width: 992px) {
-    .col-lg-4 {
-        width: 33%;
-    }
-}
