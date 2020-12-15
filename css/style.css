@@ -3,17 +3,20 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 /*Font*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
-
-
 body {
     font-family: 'Poppins', sans-serif;
     color: #343a40;
     line-height: 1.5;
     font-size: 1rem;
 }
-
 
 .font-name {
     color: #ffffff;
@@ -58,6 +61,7 @@ body {
     display: none;
 }
 
+
 /*Nav Section*/
 
 .main-menu {
@@ -70,7 +74,6 @@ body {
     text-align: center;
     z-index: 1000;
     overflow: hidden;
-
 }
 
 a {
@@ -94,7 +97,6 @@ a {
 .menu-img h1 {
     display: inline-block;
 }
-
 
 .text-welcome {
     position: relative;
@@ -144,6 +146,7 @@ li {
     list-style-type: none;
 }
 
+
 /*Banner section*/
 
 .img-content {
@@ -166,6 +169,7 @@ li {
     vertical-align: middle;
     display: inline-block;
 }
+
 
 /*Know me section*/
 
@@ -322,6 +326,7 @@ li {
     padding: 10px 0px;
 }
 
+
 /*Footer Section*/
 
 .main-footer {
@@ -333,6 +338,7 @@ li {
 .main-footer a {
     color: #1cc997;
 }
+
 
 /*Responsive Section*/
 
@@ -348,46 +354,37 @@ li {
         flex-direction: row;
         justify-content: space-between;
     }
-
     .font-name {
         font-size: 1rem;
         position: static;
         text-decoration: none;
         padding: 0 30px;
     }
-
     .menu-section {
         display: inline-block;
         flex-direction: column;
     }
-
     .menu-img {
         display: none;
     }
-
     nav {
         display: flex;
         justify-content: space-between;
     }
-
     .nav-active {
         color: #1cc997;
         text-decoration: none;
         font-size: 20px;
     }
-
     li a:hover {
         color: #1cc997;
     }
-
     .menu-section .hide {
         display: none;
     }
-
     li {
         padding: 10px 2px;
     }
-
     .menu-icon {
         display: contents;
         display: inline;
@@ -395,23 +392,19 @@ li {
         padding-right: 40px;
         padding-top: 10px;
     }
-
     .social-icons {
         display: inline-flex;
         padding: 0 50px;
         justify-content: space-between;
     }
-
     .social-icons a {
         padding: 12px 10px 0;
     }
-
     a {
         display: inline;
         text-decoration: none;
         color: #dee2e6;
     }
-
     #menu {
         position: fixed;
         height: auto;
@@ -422,13 +415,10 @@ li {
         color: white;
         overflow: hidden;
     }
-
     /*Banner section*/
-    
     .col-md-10 {
         position: relative;
     }
-
     .img-content {
         background-image: url("../img/nav.jpeg");
         background-size: cover;
@@ -437,7 +427,6 @@ li {
         height: 100vh;
         width: 100%;
     }
-
     .overlay-img {
         position: absolute;
         top: 0;
@@ -449,65 +438,50 @@ li {
         vertical-align: middle;
         display: inline-block;
     }
-
     .padding-top {
         padding-top: 3rem;
     }
-
     /*About me Section*/
-    
     .main-about-me {
         position: relative;
         left: 0;
         padding: 4.5rem 0;
     }
-
     .title-know-me h2 {
         position: absolute;
         font-size: 5rem;
     }
-
     .title-know-me p {
         padding-top: 10px;
     }
-
     .col-md-3 {
         padding: 20px;
     }
-
     /*What I do Section*/
-    
     .main-what-i-do {
         position: relative;
         left: 0;
         padding: 4.5rem 0;
         background-color: #f8f9fa;
     }
-
     .padding-content {
         padding-left: 20px;
         padding-right: 20px;
     }
-
     .title-know-me h2 {
         display: none;
     }
-
     /*Resume Section*/
-    
     .main-resume {
         left: 0;
         padding: 4.5rem 0;
     }
-
     /*footer section*/
     .main-footer {
         width: 100%;
         overflow: hidden;
     }
-
 }
-
 
 @media(min-width:768px) {
     .padding-left {
@@ -518,4 +492,3 @@ li {
         position: absolute;
     }
 }
-
